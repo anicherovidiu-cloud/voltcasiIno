@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>VoltCasino — Online Casino</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0a0e1a;
+      color: #ffffff;
+    }
+    header {
+      background: #0f1426;
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #ffd700;
+    }
+    .btn {
+      background: #ffd700;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: radial-gradient(circle at top, #1a1f3d, #0a0e1a);
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      opacity: 0.8;
+      font-size: 18px;
+    }
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .game {
+      background: #161b33;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .game:hover {
+      transform: scale(1.05);
+      background: #1f2550;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      opacity: 0.5;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">⚡ VoltCasino</div>
+  <div>
+    <a class="btn" href="#">Login</a>
+    <a class="btn" href="#">Register</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Feel the Voltage</h1>
+  <p>Играй в лучшие слоты и live-игры прямо сейчас</p>
+  <br>
+  <a class="btn" href="#">Start Playing</a>
+</section>
+
+<section class="games">
+  <div class="game">🎰 Slots</div>
+  <div class="game">♠ Blackjack</div>
+  <div class="game">👑 Roulette</div>
+  <div class="game">🃏 Poker</div>
+  <div class="game">💣 Crash</div>
+  <div class="game">🎲 Dice</div>
+</section>
+
+<footer>
+  © 2026 VoltCasino. Demo project. No real money.
+</footer>
+
+</body>
+</html>
